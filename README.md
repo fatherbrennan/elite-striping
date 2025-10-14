@@ -39,6 +39,8 @@ VSCode is a popular code editor that supports Git and GitHub integration. It pro
 4. Find the Message input box in the [Primary Sidebar](#vscode-ux) and type in a [commit message](#git-1).
 5. Click on the `Commit` button.
    > _Note: This will commit all staged changes in your [local](#common) Git repository._
+6. Click on the `Publish Branch` button.
+   > _Note: This will publish your [local](#common) Git repository to your [remote](#remote) GitHub repository._
 
 ## VSCode: Terminal
 
