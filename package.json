@@ -1,0 +1,29 @@
+{
+  "name": "elite-striping",
+  "description": "Elite Striping.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "elite-striping",
+    "url": "https://elite-striping.com"
+  },
+  "workspaces": [],
+  "scripts": {
+    "format": "biome format --write",
+    "format.check": "biome check",
+    "format.fix": "biome check --fix --unsafe",
+    "lint": "biome lint --write",
+    "lint.check": "biome lint",
+    "test": "bun test --watch",
+    "wiki": "bun --cwd wiki dev"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.5",
+    "@types/bun": "^1.2.23"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}

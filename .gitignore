@@ -1,0 +1,26 @@
+# Build
+build
+dist
+server
+
+# Development
+.env
+*.local
+/node_modules
+node_modules
+
+# Cache
+.cache
+.cache-loader
+.docusaurus
+.DS_Store
+.temp
+temp
+tsconfig.tsbuildinfo
+
+# Logs
+*.log
+logs
+
+# Storage
+store

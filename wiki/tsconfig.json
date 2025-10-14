@@ -1,0 +1,25 @@
+// This file is not used in compilation. It is here just for a nice editor experience.
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "target": "ES2017",
+    "module": "ES2022",
+    "lib": ["es2022", "DOM"],
+    "jsx": "preserve",
+    "strict": true,
+    "baseUrl": ".",
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "outDir": "temp",
+    "noEmit": true,
+    "types": ["@types/bun"]
+  },
+  "include": ["src", "./*.d.ts", "./*.config.ts"],
+  "extends": "@docusaurus/tsconfig",
+  "exclude": [".docusaurus", "build"]
+}
