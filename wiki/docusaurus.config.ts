@@ -1,5 +1,7 @@
 import type { Options, ThemeConfig } from '@docusaurus/preset-classic';
 import type { Config } from '@docusaurus/types';
+import type { PluginOptions } from '@easyops-cn/docusaurus-search-local';
+import searchLocal from '@easyops-cn/docusaurus-search-local';
 import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -47,6 +49,20 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
       } satisfies Options,
+    ],
+  ],
+
+  themes: [
+    [
+      searchLocal,
+      {
+        hashed: true,
+        fuzzyMatchingDistance: 2,
+        searchBarShortcut: true,
+        searchBarShortcutHint: true,
+        language: ['en'],
+        searchBarShortcutKeymap: 'mod+k',
+      } satisfies PluginOptions,
     ],
   ],
 

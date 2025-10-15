@@ -1,6 +1,11 @@
 {
   "biome.enabled": true,
-  "cSpell.words": ["bunx", "cheatsheet", "hintrc"],
+  "cSpell.words": [
+    "bunx",
+    "cheatsheet",
+    "easyops",
+    "hintrc"
+  ],
   "css.lint.unknownAtRules": "ignore",
   "editor.autoClosingBrackets": "languageDefined",
   "editor.autoClosingQuotes": "languageDefined",
